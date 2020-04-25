@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa6aa661-39af-4de8-ad9a-f6d38fc66327" name="Default Changelist" comment="" />
+    <list default="true" id="fa6aa661-39af-4de8-ad9a-f6d38fc66327" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/learnpython/re_learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnpython/re_learn.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Xc3JSoGiV6Ndn9FTDBvcPFDTCI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -169,6 +175,7 @@
       <workItem from="1587693627569" duration="43000" />
       <workItem from="1587693702890" duration="185000" />
       <workItem from="1587694795814" duration="3369000" />
+      <workItem from="1587795121199" duration="19000" />
     </task>
     <servers />
   </component>
