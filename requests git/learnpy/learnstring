@@ -1,0 +1,72 @@
+# 字符串常用的转义符号:
+#   \n:换行
+#   \t: 一个tab键
+#   \': '
+#   \": "
+# 打印"hello"
+# 打印guido's
+# 打印"hello guido's python"
+
+# 打印"hello"
+print('"hello"')
+# 打印guido's
+print("guido's")
+# 打印"hello guido's python"
+print("\"hello guido's python\"")
+
+
+# 索引： 0，1，2，3，4, 索引值是从0开始的;
+str = 'hello'
+print(str[1])
+
+# 切片
+str = 'hello'
+print(str[1:])
+
+# 重复
+srt = 'hello'
+print(str*2)
+
+# 连接
+str = 'hello'
+print(str+'01')
+
+# 成员操作符 s = "hello", in, not in
+str = 'hello'
+print('h' in str)
+print('abc' in str)
+
+# 字符串开头和结尾的匹配
+
+# 找出字符串是否以xxxx结尾；
+s = "hello.jpg"
+print(s.endswith('.jpg'))
+print(s.endswith('.png'))
+
+# 以什么开头;
+url1 = "http://www.baidu.com"
+url2 = "file:///mnt"
+url3 = "https://www.baidu.com"
+url4 = "ftp://www.baidu.com"
+print(url1.startswith('http'))
+print(url2.startswith('http'))
+
+# 字符串搜索与替换
+#find(), replace()
+s = "hello world hello"
+# find找到子串，并返回最小的索引值;
+print(s.find('world'))
+# 替换字符串中所有的“hello”为"westos"
+print(s.replace('world', 'hi'))
+
+
+# 字符串的分离和连接
+s = '172.25.254.250'
+# ['172', '25', '254', '250']列表数据类型
+# split对于字符串进行分离， 分割符为"."
+print(s.split('.'))
+s1 = s.split('.')
+
+# 连接, 通过指定的连接符， 连接每个字符串;
+print("-".join(s1))
+
